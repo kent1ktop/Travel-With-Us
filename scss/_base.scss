@@ -1,0 +1,67 @@
+@use 'helpers' as *;
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+body,
+li,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../img/HeaderBackground.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+input {
+  width: 647px;
+  height: 60px;
+  font-family: $main_font-family_text;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  color: #999999;
+  padding: 20px 125px 20px 36px;
+}
+
+button {
+  background: $main_color_layout;
+  border: none;
+}
+
+form {
+  position: relative;
+  margin-bottom: 211px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  height: 12px;
+}
+
+li {
+  font-family: $minor_font-family_text;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+a {
+  color: $main_color_text;
+}

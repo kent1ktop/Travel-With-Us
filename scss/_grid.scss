@@ -1,0 +1,31 @@
+@use 'helpers' as *;
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.content_column_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_header {
+  padding: 18px 24px;
+  width: 139px;
+  height: 52px;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav_and_logo {
+  display: flex;
+  justify-content: center;
+  gap: 577px;
+  padding: 32px 0px;
+  align-items: center;
+}

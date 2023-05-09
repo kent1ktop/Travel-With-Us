@@ -1,0 +1,45 @@
+@use 'helpers' as *;
+
+h1 {
+  font-family: $main_font-family_text;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: $main_color_text;
+  margin: 295px 0px 8px 0px;
+}
+
+p {
+  font-family: $main_font-family_text;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  color: $main_color_text;
+  margin-bottom: 48px;
+}
+
+.text_button_header {
+  font-family: $minor_font-family_text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $main_color_text;
+}
+
+small {
+  font-family: $main_font-family_text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: $main_color_text;
+}
+
+h2 {
+  font-family: $main_font-family_text;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $main_color_text;
+  height: 20px;
+}

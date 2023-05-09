@@ -1,0 +1,17 @@
+@use 'helpers' as *;
+
+.search_header {
+  height: 16px;
+  width: 16px;
+  fill: $main_color_text;
+}
+
+.chevron-down {
+  width: 14px;
+  height: 16px;
+  margin: 4px 0px 120px 0px;
+}
+
+.bgr_nav_and_logo {
+  background: $main_color_layout;
+}
