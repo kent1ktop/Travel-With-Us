@@ -29,3 +29,42 @@
   padding: 32px 0px;
   align-items: center;
 }
+
+.direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_row_center {
+  display: flex;
+  justify-content: center;
+}
+
+.side_right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 220px 300px 120px 0px;
+}
+
+.img_first_section {
+  position: absolute;
+  display: flex;
+  right: 412px;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1800px) {
+  .img_first_section {
+    right: 110px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .nav_and_logo {
+    gap: 397px;
+  }
+
+  .side_right {
+    padding: 220px 110px 120px 0px;
+  }
+}

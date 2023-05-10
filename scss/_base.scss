@@ -65,3 +65,13 @@ li {
 a {
   color: $main_color_text;
 }
+
+footer {
+  background: #000000;
+}
+
+@media screen and (max-width: 1360px) {
+  header {
+    background-image: url(../img/1360/HeaderBackground.png);
+  }
+}

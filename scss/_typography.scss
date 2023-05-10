@@ -18,13 +18,20 @@ p {
   margin-bottom: 48px;
 }
 
-.text_button_header {
+.text_button {
   font-family: $minor_font-family_text;
-  font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: $main_color_text;
+}
+
+.header_btn_text {
+  font-size: 14px;
+}
+
+.other_btn_text {
+  font-size: 16px;
 }
 
 small {
@@ -42,4 +49,41 @@ h2 {
   text-transform: uppercase;
   color: $main_color_text;
   height: 20px;
+}
+
+h5 {
+  font-family: $minor_font-family_text;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: $main_color_text;
+}
+
+.text {
+  font-family: $main_font-family_text;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: $main_color_text; 
+}
+
+.under_heading {
+  font-size: 16px;
+}
+
+.top_heading {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: $main_font-family_text;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: $main_color_text;
+  margin: 16px 0px 16px 0px;
+}
+
+@media screen and (max-width: 1440px) {
 }

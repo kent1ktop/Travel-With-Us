@@ -15,3 +15,154 @@
 .bgr_nav_and_logo {
   background: $main_color_layout;
 }
+
+.small_img {
+  width: 350px;
+  height: 220px;
+}
+
+.first_img {
+  margin: 124px 0px 16px 0px;
+}
+
+.second_img {
+  margin: 0px 0px 124px 62px;
+}
+
+.left_side {
+  margin-left: 300px;
+}
+
+.bgr_section_second {
+  background: #333333;
+}
+
+.width_block {
+  width: 424px;
+  margin: 106px 0px 60px 0px;
+  gap: 4px;
+}
+
+.icon_second_section {
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  background: #333333;
+}
+
+.search_section_second {
+  fill: $main_color_layout;
+}
+
+.line {
+  width: 872px;
+  height: 90px;
+}
+
+.gap_second_section {
+  gap: 24px;
+  background-image: url(../img/Line.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;;
+}
+
+.text_cards {
+  margin-bottom: 24px;
+  max-width: 585px;
+}
+
+.icon_quote {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.photo_fifth_section {
+  width: 440px;
+}
+
+.under_heading_fifth_section {
+  max-width: 760px;
+}
+
+.text_fifth_section {
+  padding: 39px 65px 39px 60px;
+  background: #333333
+}
+
+.heading_fifth_section {
+  text-align: center;
+  margin: 120px 0px 60px 0px;
+}
+
+.margin_fifth_section {
+  margin-bottom: 176px;
+  align-items: flex-start;
+}
+
+.icon_footer {
+  fill: $main_color_text;
+  height: 32px;
+}
+
+.facebook {
+  width: 20px;
+}
+
+.twitter {
+  width: 32px;
+}
+
+.linkedin {
+  width: 28px;
+}
+
+.youtube {
+  width: 36px;
+}
+
+.pinterest {
+  width: 32px;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.heading_footer {
+  padding: 80px 0px 8px 0px;
+  height: 28px;
+}
+
+.icons_footer {
+  gap: 32px;
+  padding: 20px 0px 80px 0px;
+}
+
+@media screen and (max-width: 1440px) {
+  .second_img {
+    margin: 0px 0px 124px 110px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .width_block {
+    width: 364px;
+  }
+
+  .gap_second_section {
+    background-image: url(../img/1360/Line.png);
+  }
+
+  .text_cards {
+    max-width: 494px;
+  }
+
+  .text_fifth_section {
+    padding: 39px 60px;
+  }
+
+  .under_heading_fifth_section {
+    max-width: 640px;
+  }
+}
