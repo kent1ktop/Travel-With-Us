@@ -1,5 +1,9 @@
 @use 'helpers' as *;
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   width: 100%;
@@ -27,6 +31,7 @@ header {
   background-image: url(../img/HeaderBackground.png);
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
 }
 
 input {
@@ -94,3 +99,4 @@ footer {
     margin-bottom: 149px;
   }
 }
+

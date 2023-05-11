@@ -236,14 +236,27 @@
     width: 258px;
     height: 162px;
   }
+
+  .height_picture {
+    height: 210px;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 655px) {
   .first_img {
-    margin: 5px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
 
   .second_img {
-    margin: 5px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .width_block {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .heading_fifth_section {
+    margin: 30px 10px;
+    font-size: 30px;
   }
 }
