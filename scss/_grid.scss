@@ -108,7 +108,16 @@
 }
 
 @media screen and (max-width: 655px) {
+  .nav_and_logo {
+    padding: 0px;
+    height: 84px;
+  } 
+
   .button_header {
     position: static;
+  }
+
+  .img_first_section {
+    gap: 5px;
   }
 }

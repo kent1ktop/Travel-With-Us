@@ -154,3 +154,9 @@
     background-image: url(../img/768/render-1477041_12801.png);
   }
 }
+
+@media screen and (max-width: 655px) {
+  .side_left {
+    padding: 80px 10px;
+  }
+}
