@@ -9,15 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header>
     <div class="container">
       <div class="content_column_center">
-        <h1>Bhromaon</h1>
-        <p>Safe Travel Anywhere</p>
-        <form action="">
+        <h1 class="animate__animated animate__flipInY animate__delay-1s">Bhromaon</h1>
+        <p class="animate__animated animate__flipInY animate__delay-1s">Safe Travel Anywhere</p>
+        <form action="" class="animate__animated animate__delay-1s animate__fadeInUpBig">
           <input id="idEmail" type="search" name="src_inp" placeholder="Search Your Travel Destination" required>
           <button type="submit" class="button_header">
             <svg class="search_header">
@@ -26,8 +27,8 @@
             <span class="text_button header_btn_text">Search</span>
           </button>
         </form>
-        <a href="#first_sect"><small>Scroll Down</small></a>
-        <a href="#first_sect"><svg class="chevron-down">
+        <a href="#first_sect" class="animate__animated animate__delay-1s animate__backInUp"><small>Scroll Down</small></a>
+        <a href="#first_sect" class="animate__animated animate__delay-1s animate__backInUp"><svg class="chevron-down">
           <use xlink:href="sprite.svg#chevron-down"></use>
         </svg></a>
       </div>
@@ -43,11 +44,11 @@
               <li class="nav_list"><a href="https://www.poehalisnami.ua/ua/tour">Travel With Us</a></li>
               <li class="nav_list"><a href="https://www.poehalisnami.ua/ua/tour">Contact Us</a></li>
             </ul>
-            <button onclick="myFunction()" class="burger-menu">
+            <!-- <button onclick="myFunction()" class="burger-menu">
               <span class="burger-menu_line"></span>
               <span class="burger-menu_line"></span>
               <span class="burger-menu_line"></span>
-            </button>
+            </button> -->
           </nav>
         </div>
       </div>
@@ -182,7 +183,7 @@
       </div>
     </div>
   </footer>
-  <script>
+  <!-- <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "nav") {
@@ -191,6 +192,6 @@
         x.className = "nav";
       }
     }
-  </script>
+  </script> -->
 </body>
 </html>
