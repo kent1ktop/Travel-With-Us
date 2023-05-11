@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>First Exam</title>
+  <title>Bhromaon</title>
+  <link rel="icon" href="favicon/favicon.png" type="icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -56,8 +57,14 @@
           <button class="button_other_section"><span class="text_button other_btn_text">Explore Places</span></button>
         </div>
         <div class="img_first_section">
-          <img src="img/lake.svg" alt="lake" class="small_img first_img">
-          <img src="img/mountains.svg" alt="mountains" class="small_img second_img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/Image1.png">
+            <img src="img/576/Image1.png" alt="photo_mountains" class="small_img first_img">
+          </picture>
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/Image(1)1.png">
+            <img src="img/576/Image(1)1.png" alt="photo_mountains" class="small_img second_img">
+          </picture>
         </div>
       </section>
     </div>
@@ -112,12 +119,15 @@
         <div class="direction-column">
           <h5 class="heading_fifth_section">What Our  Tourists Say</h5>
           <div class="content_row_center margin_fifth_section">
-            <picture>
-              <source media="(min-width: 1360px)" srcset="img/ReviewPhoto.svg">
-              <img src="img/1360/ReviewPhoto.png" alt="ReviewPhoto">
-          </picture>
+            <picture class="height_picture">
+              <source media="(min-width: 1361px)" srcset="img/ReviewPhoto.png">
+              <source media="(min-width: 1251px)" srcset="img/1360/ReviewPhoto.png">
+              <source media="(min-width: 993px)" srcset="img/1024/ReviewPhoto.png">
+              <source media="(min-width: 768px)" srcset="img/768/ReviewPhoto.png">
+              <img src="img/ReviewPhoto.png" alt="ReviewPhoto">
+            </picture>
             <div class="text_fifth_section">
-              <h3>Sam Sumon</h3>
+              <h3 class="header_card_fifth_section">Sam Sumon</h3>
               <div class="under_heading_fifth_section">
                 <svg class="icon_quote">
                   <use xlink:href="sprite.svg#quote-left"></use>
@@ -155,5 +165,15 @@
       </div>
     </div>
   </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav";
+      }
+    }
+  </script>
 </body>
 </html>

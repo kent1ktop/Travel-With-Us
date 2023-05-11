@@ -24,7 +24,7 @@ a {
 }
 
 header {
-  background-image: url(../img/HeaderBackground.svg);
+  background-image: url(../img/HeaderBackground.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -73,5 +73,20 @@ footer {
 @media screen and (max-width: 1360px) {
   header {
     background-image: url(../img/1360/HeaderBackground.png);
+  }
+}
+
+@media screen and (max-width: 655px) {
+  input {
+    width: 360px;
+    padding: 20px 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 149px;
   }
 }

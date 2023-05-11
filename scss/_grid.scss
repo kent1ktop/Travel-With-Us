@@ -68,3 +68,47 @@
     padding: 220px 110px 120px 0px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .nav_and_logo {
+    gap: 217px;
+  }
+
+  .img_first_section {
+    right: 32px;
+  }
+
+  .side_right {
+    padding: 220px 32px 120px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav_and_logo {
+    gap: 32px;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+  }
+
+  .img_first_section {
+    flex-direction: row;
+  }
+
+  .img_first_section {
+    position: static;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .side_right {
+    padding: 120px 24px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .button_header {
+    position: static;
+  }
+}
